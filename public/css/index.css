@@ -1,92 +1,118 @@
 .task1 {
+	background: green;
 }
 
 .task2 {
+	background-image: url(/img/img-400x200.jpg);
 }
 
 .task3 {
+	background: rgb(238,0,0);
+background: linear-gradient(0deg, rgba(238,0,0,0.9316284937888198) 0%, rgba(254,237,132,1) 100%);
 }
 
 .task4 {
+	background-image: radial-gradient(#3f87a6, #ebf8e1, #f69d3c);
 }
 
 .task5 {
+	background-image: conic-gradient(from 3.1416rad at 10% 50%, #e66465, #9198e5);
 }
 
 .task6 {
   background-image: url('/img/img-400x200.jpg');
+	background-repeat: repeat-x;
 }
 
 .task7 {
-  background-image: url('/img/img-400x200.jpg');
+  background-image: url('/img/img-400x200.jpg');	
+	background-repeat: repeat-y;
 }
 
 .task8 {
   background-image: url('/img/img-400x200.jpg');
+	background-repeat: no-repeat;
 }
 
 .task9 {
   background-image: url('/img/img-400x200.jpg');
+	background-repeat: space;
+	
 }
 
 .task10 {
   background-image: url('/img/img-400x200.jpg');
+	background-repeat: round;
 }
 
 .task11 {
   background-image: url('/img/img-400x200.jpg');
+	background-attachment: fixed;
 }
 
 .task12 {
   background-image: url('/img/img-400x200.jpg');
-}
+		background-attachment: local;
+	}
 
 .task13 {
   background-image: url('/img/img-400x200.jpg');
+	background-attachment: scroll;
 }
 
 .task14 {
   background-image: url('/img/img-400x200.jpg');
+	background-position: center;
 }
 
 .task15 {
   background-image: url('/img/img-400x200.jpg');
+	background-position: top center;
 }
 
 .task16 {
   background-image: url('/img/img-400x200.jpg');
+	background-position: bottom;
 }
 
 .task17 {
   background-image: url('/img/img-400x200.jpg');
+	background-position: left;
 }
 
 .task18 {
   background-image: url('/img/img-400x200.jpg');
+	background-position: right;
 }
 
 .task19 {
   background-image: url('/img/img-400x200.jpg');
+	background-position: 100px;
 }
 
 .task20 {
   background-image: url('/img/img-400x200.jpg');
+	background-size: auto;
 }
 
 .task21 {
   background-image: url('/img/img-400x200.jpg');
+	background-size: 600px;
 }
 
 .task22 {
   background-image: url('/img/img-400x200.jpg');
+	background-size: 50%;
 }
 
 .task23 {
   background-image: url('/img/img-400x200.jpg');
+	background-size: contain;
 }
 
 .task24 {
   background-image: url('/img/img-400x200.jpg');
+	background-size: cover;
 }
 
 .task25 {
